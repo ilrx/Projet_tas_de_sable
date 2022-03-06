@@ -57,8 +57,9 @@ def generation():
 root = tk.Tk()
 root.title('Tas de Sable - Groupe 1')
 canvas = tk.Canvas(root,height=HAUTEUR,width=LARGEUR,bg='black')
-button_generation = tk.Button(root,text='Génération',command=generation,activebackground='red')
+button_generation = tk.Button(root,text='Génration',command=generation,activebackground='red')
 button_generation.grid(row=0,column=0)
 canvas.grid(row=0,column=1)
 
 root.mainloop()
+
